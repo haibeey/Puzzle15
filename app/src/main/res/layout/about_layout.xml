@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/abid">
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/heretv1"
+        android:text="How to play"
+        android:paddingBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heretv1"
+        android:text="Try to arrange the tiles,by swiping  the empty tile to valid directions..That all!"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        android:id="@+id/heretv2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heretv2"
+        android:textColor="@color/black"
+        android:id="@+id/heretv3"
+        android:textSize="@dimen/fab_margin"
+        android:paddingTop="@dimen/fab_margin"
+        android:text="version:0.1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/heretv3"
+        android:textColor="@color/black"
+        android:text="Contact@ abrahamakerele38@gmail.com"
+        />-->
+
+
+</LinearLayout>

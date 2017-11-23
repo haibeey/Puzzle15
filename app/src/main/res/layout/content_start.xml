@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cl2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.haibeey.puzzle15.startActivity"
+    android:background="@drawable/four"
+    tools:showIn="@layout/activity_start">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rab">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bb1"
+            android:background="@drawable/curvebutton"
+            android:text="Classics"
+            android:textSize="28dp"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="classics" />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bb2"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_below="@+id/bb1"
+            android:background="@drawable/curvebutton"
+            android:text="Modern"
+            android:textSize="28dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="modern"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bb3"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_below="@+id/bb2"
+            android:textSize="28dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/curvebutton"
+            android:text="About"
+            android:onClick="about"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_above="@+id/myguy"
+            android:background="@mipmap/settings"
+            android:text="settings"
+            android:elevation="100dp"
+            android:onClick="score"
+            android:layout_alignParentLeft="true"
+            android:layout_height="90dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_above="@+id/myguy"
+            android:layout_alignParentRight="true"
+            android:layout_height="90dp"
+            android:elevation="100dp"
+            android:text="Exit"
+            android:background="@mipmap/exit"
+            android:onClick="exit"
+            />
+        <LinearLayout
+            android:id="@+id/myguy"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:layout_height="50dp"></LinearLayout>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
